@@ -15,29 +15,43 @@ Repository ini berisi materi, latihan soal, dan proyek untuk mata kuliah Jaringa
 - Algoritma backpropagation
 - Implementasi praktis menggunakan RapidMiner
 
-## 🗂️ Struktur Repository
 📦 ANN-218315-23
-├── 📂 Minggu_1-2
-│ ├── 📜 Pengenalan_ANN.md
-│ └── 📝 Model_Matematis.md
-├── 📂 Minggu_3-4
-│ ├── 📂 Fungsi_Aktivasi
-│ │ ├── 📜 Soal_Latihan.md
-│ │ └── 📜 Pembahasan.md
-│ └── 📜 SSE_Concept.md
-├── 📂 Minggu_5-7
-│ ├── 📜 Perceptron_Calculation.md
-│ └── 📜 Kuis_Perceptron.md
-├── 📂 Minggu_8
-│ └── 📜 UTS_Preparation.md
-├── 📂 Minggu_9-11
-│ ├── 📂 Backpropagation
-│ └── 📜 Dataset_Selection.md
-├── 📂 Minggu_12-14
-│ ├── 📜 RapidMiner_Lab.md
-│ └── 📜 UAS_Guidelines.md
+├── 📂 00_Pengantar
+│   ├── 📜 Silabus.md
+│   ├── 📜 Kontrak_Kuliah.pdf
+│   └── 📜 Referensi.txt
+├── 📂 01_Dasar_Teori
+│   ├── 📜 1.1_Konsep_ANN.md
+│   ├── 📜 1.2_Model_Matematis.ipynb
+│   └── 📜 1.3_Fungsi_Aktivasi.pdf
+├── 📂 02_Perceptron
+│   ├── 📂 Latihan
+│   │   ├── 📜 Soal_Perceptron.md
+│   │   └── 📜 Pembahasan_Perceptron.py
+│   └── 📜 Kuis_1_Solusi.ipynb
+├── 📂 03_Backpropagation
+│   ├── 📜 3.1_Teori_Backprop.md
+│   ├── 📜 3.2_Implementasi_RapidMiner.rmp
+│   └── 📂 Dataset
+│       └── 📜 data_latihan.csv
+├── 📂 04_Praktikum
+│   ├── 📂 Modul_1
+│   │   ├── 📜 Panduan_Praktikum.pdf
+│   │   └── 📜 Screenshot_Hasil.png
+│   └── 📂 Modul_2
+│       ├── 📜 Laporan_Praktikum.docx
+│       └── 📜 Hasil_Export.rmp
+├── 📂 05_Ujian
+│   ├── 📜 Bank_Soal_UTS.pdf
+│   └── 📜 Panduan_UAS_Take_Home.md
+├── 📂 06_Tugas_Besar
+│   ├── 📜 Proposal_Tugas_Akhir.md
+│   ├── 📂 Dataset
+│   │   └── 📜 data_akhir.csv
+│   └── 📂 Code
+│       ├── 📜 ann_model.py
+│       └── 📜 preprocessing.ipynb
 └── 📜 README.md
-
 
 ## 🗓️ Agenda Pembelajaran
 | Minggu | Topik | Status |
