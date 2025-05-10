@@ -15,44 +15,83 @@ Repository ini berisi materi, latihan soal, dan proyek untuk mata kuliah Jaringa
 - Algoritma backpropagation
 - Implementasi praktis menggunakan RapidMiner
 
+# 🧠 Artificial Neural Network (218315-23) - Repository Structure
+
+```text
 📦 ANN-218315-23
-├── 📂 00_Pengantar
-│   ├── 📜 Silabus.md
-│   ├── 📜 Kontrak_Kuliah.pdf
-│   └── 📜 Referensi.txt
-├── 📂 01_Dasar_Teori
-│   ├── 📜 1.1_Konsep_ANN.md
-│   ├── 📜 1.2_Model_Matematis.ipynb
-│   └── 📜 1.3_Fungsi_Aktivasi.pdf
+├── 📂 00_Administrasi
+│   ├── 📜 Silabus.pdf
+│   ├── 📜 Kontrak_Kuliah.docx
+│   ├── 📜 Jadwal_Perkuliahan.md
+│   └── 📜 Daftar_Referensi.bib
+├── 📂 01_Materi_Teori
+│   ├── 📜 1.1_Pengenalan_ANN.md
+│   ├── 📜 1.2_Sejarah_ANN.pdf
+│   ├── 📜 1.3_Model_Matematis.ipynb
+│   ├── 📜 1.4_Fungsi_Aktivasi.md
+│   └── 📂 Supplements
+│       ├── 📜 Paper_1.pdf
+│       └── 📜 Paper_2.pdf
 ├── 📂 02_Perceptron
+│   ├── 📜 2.1_Teori_Perceptron.md
+│   ├── 📜 2.2_Implementasi_Python.ipynb
 │   ├── 📂 Latihan
-│   │   ├── 📜 Soal_Perceptron.md
-│   │   └── 📜 Pembahasan_Perceptron.py
-│   └── 📜 Kuis_1_Solusi.ipynb
+│   │   ├── 📜 Soal_1.md
+│   │   └── 📜 Solusi_1.py
+│   └── 📜 Kuis_1.pdf
 ├── 📂 03_Backpropagation
-│   ├── 📜 3.1_Teori_Backprop.md
-│   ├── 📜 3.2_Implementasi_RapidMiner.rmp
+│   ├── 📜 3.1_Konsep_Dasar.md
+│   ├── 📜 3.2_Algoritma.pdf
+│   ├── 📂 Implementasi
+│   │   ├── 📜 RapidMiner_Backprop.rmp
+│   │   └── 📜 Python_Backprop.ipynb
 │   └── 📂 Dataset
-│       └── 📜 data_latihan.csv
+│       ├── 📜 training_set.csv
+│       └── 📜 test_set.csv
 ├── 📂 04_Praktikum
 │   ├── 📂 Modul_1
-│   │   ├── 📜 Panduan_Praktikum.pdf
-│   │   └── 📜 Screenshot_Hasil.png
+│   │   ├── 📜 Panduan.pdf
+│   │   ├── 📜 Laporan_Template.docx
+│   │   └── 📂 Hasil
+│   │       ├── 📜 Screenshot_1.png
+│   │       └── 📜 Model_1.rmp
 │   └── 📂 Modul_2
-│       ├── 📜 Laporan_Praktikum.docx
-│       └── 📜 Hasil_Export.rmp
-├── 📂 05_Ujian
-│   ├── 📜 Bank_Soal_UTS.pdf
-│   └── 📜 Panduan_UAS_Take_Home.md
+│       ├── 📜 Panduan.pdf
+│       └── 📜 Laporan_Contoh.docx
+├── 📂 05_Evaluasi
+│   ├── 📂 UTS
+│   │   ├── 📜 Kisi-kisi.pdf
+│   │   ├── 📜 Bank_Soal.md
+│   │   └── 📜 Solusi_UTS.ipynb
+│   └── 📂 UAS
+│       ├── 📜 Panduan_Take_Home.md
+│       ├── 📜 Dataset_UAS.csv
+│       └── 📂 Contoh_Implementasi
+│           ├── 📜 ANN_Model.py
+│           └── 📜 Preprocessing.ipynb
 ├── 📂 06_Tugas_Besar
-│   ├── 📜 Proposal_Tugas_Akhir.md
+│   ├── 📜 Panduan.pdf
+│   ├── 📂 Proposal
+│   │   ├── 📜 Template.docx
+│   │   └── 📜 Contoh_Proposal.pdf
 │   ├── 📂 Dataset
-│   │   └── 📜 data_akhir.csv
+│   │   ├── 📜 data_utama.csv
+│   │   └── 📜 data_pendukung.xlsx
 │   └── 📂 Code
-│       ├── 📜 ann_model.py
-│       └── 📜 preprocessing.ipynb
+│       ├── 📂 Preprocessing
+│       │   ├── 📜 cleaning.py
+│       │   └── 📜 normalization.ipynb
+│       └── 📂 Model
+│           ├── 📜 ann_architecture.py
+│           └── 📜 training_loop.ipynb
+├── 📂 07_Ekstra
+│   ├── 📂 Cheatsheet
+│   │   ├── 📜 ANN_Cheatsheet.pdf
+│   │   └── 📜 RapidMiner_Shortcuts.md
+│   └── 📂 Presentasi
+│       ├── 📜 Slide_Kelompok_1.pptx
+│       └── 📜 Slide_Kelompok_2.pdf
 └── 📜 README.md
-
 ## 🗓️ Agenda Pembelajaran
 | Minggu | Topik | Status |
 |--------|-------|--------|
