@@ -1,6 +1,3 @@
-Here's a professionally structured and visually appealing `README.md` for your **Jaringan Syaraf Tiruan (Artificial Neural Network)** course repository:
-
-```markdown
 # 🧠 Jaringan Syaraf Tiruan (218315-23) 
 
 ![Badge](https://img.shields.io/badge/Subject-Artificial_Neural_Network-9cf) 
@@ -19,29 +16,28 @@ Repository ini berisi materi, latihan soal, dan proyek untuk mata kuliah Jaringa
 - Implementasi praktis menggunakan RapidMiner
 
 ## 🗂️ Struktur Repository
-```
 📦 ANN-218315-23
 ├── 📂 Minggu_1-2
-│   ├── 📜 Pengenalan_ANN.md
-│   └── 📝 Model_Matematis.md
+│ ├── 📜 Pengenalan_ANN.md
+│ └── 📝 Model_Matematis.md
 ├── 📂 Minggu_3-4
-│   ├── 📂 Fungsi_Aktivasi
-│   │   ├── 📜 Soal_Latihan.md
-│   │   └── 📜 Pembahasan.md
-│   └── 📜 SSE_Concept.md
+│ ├── 📂 Fungsi_Aktivasi
+│ │ ├── 📜 Soal_Latihan.md
+│ │ └── 📜 Pembahasan.md
+│ └── 📜 SSE_Concept.md
 ├── 📂 Minggu_5-7
-│   ├── 📜 Perceptron_Calculation.md
-│   └── 📜 Kuis_Perceptron.md
+│ ├── 📜 Perceptron_Calculation.md
+│ └── 📜 Kuis_Perceptron.md
 ├── 📂 Minggu_8
-│   └── 📜 UTS_Preparation.md
+│ └── 📜 UTS_Preparation.md
 ├── 📂 Minggu_9-11
-│   ├── 📂 Backpropagation
-│   └── 📜 Dataset_Selection.md
+│ ├── 📂 Backpropagation
+│ └── 📜 Dataset_Selection.md
 ├── 📂 Minggu_12-14
-│   ├── 📜 RapidMiner_Lab.md
-│   └── 📜 UAS_Guidelines.md
+│ ├── 📜 RapidMiner_Lab.md
+│ └── 📜 UAS_Guidelines.md
 └── 📜 README.md
-```
+
 
 ## 🗓️ Agenda Pembelajaran
 | Minggu | Topik | Status |
@@ -71,18 +67,19 @@ import numpy as np
 
 def perceptron(inputs, weights, bias):
     return 1 if np.dot(inputs, weights) + bias > 0 else 0
-```
+📝 Kontribusi
+Fork repository
 
-## 📝 Kontribusi
-1. Fork repository
-2. Buat branch baru (`git checkout -b fitur-baru`)
-3. Commit perubahan (`git commit -m "Tambahkan materi minggu X"`)
-4. Push ke branch (`git push origin fitur-baru`)
-5. Buat Pull Request
+Buat branch baru (git checkout -b fitur-baru)
 
----
-© **Nama Anda** | 2024 | [![GitHub](https://img.shields.io/badge/-GitHub-181717?logo=github)](https://github.com/username)
-```
+Commit perubahan (git commit -m "Tambahkan materi minggu X")
+
+Push ke branch (git push origin fitur-baru)
+
+Buat Pull Request
+
+© Nama Anda | 2024 | GitHub
+
 
 **Fitur Khusus:**
 ✅ Progress tracker dengan emoji (✅📝🚧❌)  
