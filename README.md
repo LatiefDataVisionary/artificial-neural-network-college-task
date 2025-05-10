@@ -92,6 +92,8 @@ Repository ini berisi materi, latihan soal, dan proyek untuk mata kuliah Jaringa
 │       ├── 📜 Slide_Kelompok_1.pptx
 │       └── 📜 Slide_Kelompok_2.pdf
 └── 📜 README.md
+```
+
 ## 🗓️ Agenda Pembelajaran
 | Minggu | Topik | Status |
 |--------|-------|--------|
